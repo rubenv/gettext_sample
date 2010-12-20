@@ -1,1 +1,11 @@
-<h1><%= _('Hello world!') %></h1>
+<h1><%= _('Hello world!') %> (This greeting should've been in Dutch)</h1>
+<p>Creating page object, without parameters...</p>
+<%
+  page = Page.new
+%>
+
+<p>Should be invalid: <code>page.valid? <%= page.valid? %></code></p>
+
+<p>Validation errors:</p>
+
+<%= debug page.errors.full_messages %>
