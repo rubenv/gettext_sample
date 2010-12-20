@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: version 0.0.1\n"
-"POT-Creation-Date: 2010-12-20 17:35+0100\n"
+"POT-Creation-Date: 2010-12-20 17:48+0100\n"
 "PO-Revision-Date: 2010-12-20 17:35+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: app/models/page.rb:2
+msgid "Every page needs a name!"
+msgstr ""
 
 #: app/views/pages/index.html.erb:1
 msgid "Hello world!"

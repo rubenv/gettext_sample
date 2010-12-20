@@ -8,4 +8,8 @@
 
 <p>Validation errors:</p>
 
-<%= debug page.errors.full_messages %>
+<ul>
+<% page.errors.each do |k, v| %>
+  <li><%= k %>: <%= _(v) %></li>
+<% end %>
+</ul>
