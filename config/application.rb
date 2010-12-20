@@ -40,3 +40,8 @@ module GettextSample
     config.filter_parameters += [:password]
   end
 end
+
+FastGettext.add_text_domain 'test', :path => 'locale'
+FastGettext.default_text_domain = 'test'
+FastGettext.default_available_locales = ['en','nl']
+FastGettext.locale = 'nl'
